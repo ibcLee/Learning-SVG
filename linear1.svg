@@ -8,8 +8,20 @@
     <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
     <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
   </linearGradient>
+
+  <linearGradient id="orange_red1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+  </linearGradient>
 </defs>
 
 <ellipse cx="200" cy="190" rx="85" ry="55" style="fill:url(#orange_red)"/>
-
+<ellipse cx="100" cy="100" rx="85" ry="55" style="fill:url(#orange_red1)"/>
 </svg>
+
+<!-- 
+  <linearGradient>标签的id属性可为渐变定义一个唯一的名称
+  fill:url(#orange=red)属性把ellipse元素链接到此渐变
+  <linearGradient>标签x1,y1,x2,y2可定义渐变的开始和结束位置
+  渐变的颜色范围可由两种或多种颜色组成。每种颜色通过一个<stop>标签来规定。offset属性用来定义渐变的开始和结束位置。
+ -->
