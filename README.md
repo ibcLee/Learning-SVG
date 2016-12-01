@@ -41,6 +41,7 @@ Start to learn SVG!!!
 * 当 x1 和 x2 不同，且 y1 和 y2 不同时，可创建角形渐变
 		
 ##### 放射性渐变
-
+`<radialGradient>`用来定义放射性渐变
+`<radialGradient>`标签必须嵌套在`<defs>`标签内
 
 
