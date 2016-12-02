@@ -1,0 +1,55 @@
+/*
+Error: Undefined operation: "pi() times 180px".
+        on line 4 of style.scss
+
+1: $radius: 90 * 1px;
+2: $percent: 83 * 1px;
+3: 
+4: $circumference: (pi() * (2 * $radius));
+5: $stroke_percentage: $circumference - (($percent / 100) * $circumference);
+6: 
+7: #progress {
+8:     stroke-dasharray: $circumference;
+9:     stroke-dashoffset: $circumference;
+
+Backtrace:
+style.scss:4
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/operation.rb:92:in `rescue in _perform'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/operation.rb:88:in `_perform'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:471:in `visit_variable'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/bin/sass:23:in `load'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/bin/sass:23:in `<main>'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/Libbbbc/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined operation: \"pi() times 180px\".\A         on line 4 of style.scss\A \A 1: $radius: 90 * 1px;\A 2: $percent: 83 * 1px;\A 3: \A 4: $circumference: (pi() * (2 * $radius));\A 5: $stroke_percentage: $circumference - (($percent / 100) * $circumference);\A 6: \A 7: #progress {\A 8:     stroke-dasharray: $circumference;\A 9:     stroke-dashoffset: $circumference;"; }

@@ -2,13 +2,13 @@
 Start to learn SVG!!!
 
 #### SVG形状
-###### 矩形<rect>
-###### 圆形<circle>
-###### 椭圆<ellipse>
-###### 线<line>
-###### 折线<polyline>
-###### 多边形<polygon>
-###### 路径<path>
+###### 矩形`<rect>`
+###### 圆形`<circle>`
+###### 椭圆`<ellipse>`
+###### 线`<line>`
+###### 折线`<polyline>`
+###### 多边形`<polygon>`
+###### 路径`<path>`
 #### SVG滤镜
 * feBlend
 * feColorMatrix
@@ -43,5 +43,12 @@ Start to learn SVG!!!
 ##### 放射性渐变
 `<radialGradient>`用来定义放射性渐变
 `<radialGradient>`标签必须嵌套在`<defs>`标签内
+
+#### Texts(写在图像中的文本)
+`<text x="10" y="10">Hello World!</text>`
+text-anchor: start | middle | end | inherit，允许决定从这一点开始的文本流的方向。
+#### SVG字体
+	
+
 
 

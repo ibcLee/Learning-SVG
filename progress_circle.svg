@@ -1,0 +1,6 @@
+<?xml-stylesheet type="text/css" href="style.css"?>
+<svg width="240" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <circle id="backdrop" r="90" cy="120" cx="120" stroke-width="3" stroke="#333" fill="none" />
+  <circle id="progress" r="90" cy="120" cx="120" stroke-width="4" stroke="red" fill="none" />
+</svg>
