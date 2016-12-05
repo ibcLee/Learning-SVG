@@ -9,6 +9,14 @@ Start to learn SVG!!!
 ###### 折线`<polyline>`
 ###### 多边形`<polygon>`
 ###### 路径`<path>`
+`pathLength`属性接收一个非负数作为值，并使用这个值来覆盖浏览器计算的路径长度。
+
+* `moveto` ( `M`或`m` ): 移动到新的位置
+* `lineto` ( `L`或`l` ): 从当前坐标画一条直线到一个新坐标
+* `horizontal lineto` ( `H`或`h` ): 画一条水平线到新坐标
+* `vertical lineto` ( `V`或`v` ): 画一条垂直线到新坐标
+* `closepath` ( `Z`或`z` ): 关闭当前路径
+
 #### SVG滤镜
 * feBlend
 * feColorMatrix
